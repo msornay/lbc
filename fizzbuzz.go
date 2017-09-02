@@ -7,9 +7,9 @@ import (
 
 // FizzBuzz returns a slice of strings where all integers in [1, n+1] appear in order.
 // In that slice :
-// * Multiple of a and b are replaced by sa+sb
-// * Multiple of a are replaced by sa
-// * Multiple of b are replaced by sb
+//   * Multiple of a and b are replaced by sa+sb
+//   * Multiple of a are replaced by sa
+//   * Multiple of b are replaced by sb
 func FizzBuzz(sa, sb string, a, b, n int) ([]string, error) {
 	if n < 0 {
 		return nil, fmt.Errorf("invalid limit: %d", n)
