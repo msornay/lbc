@@ -1,4 +1,4 @@
-package main
+package fizzbuzz
 
 import (
 	"fmt"
@@ -29,8 +29,4 @@ func FizzBuzz(sa, sb string, a, b, n int) ([]string, error) {
 		}
 	}
 	return res, nil
-}
-
-func main() {
-	fmt.Println("vim-go")
 }
