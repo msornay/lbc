@@ -7,16 +7,18 @@ Serves FizzBuzz lists on /
 ## Example usage
 
 * Install the package:
-
-    go get github.com/msornay/lbc
+```
+go get github.com/msornay/lbc
+```
 
 * Start the server:
-
-    lbc --addr :8070
+```
+lbc --addr :8070
+```
 
 * Query the server:
-
-    curl -H "Content-Type: application/json" \
-         -d '{"string1":"fizz","string2":"buzz","int1":3,"int2":5,"limit":16}' \
-        localhost:8070
-
+```
+curl -H "Content-Type: application/json" \
+     -d '{"string1":"fizz","string2":"buzz","int1":3,"int2":5,"limit":16}' \
+     localhost:8070
+```
